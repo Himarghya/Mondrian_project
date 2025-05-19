@@ -1,0 +1,78 @@
+            .Container{
+                height: 748px;
+                width: 748px;
+                display: grid;
+                background-color: #F0F1EC;
+                grid-template-columns: 320fr 198fr 153fr 50fr;
+                grid-template-rows: 414fr 130fr 155fr 20fr;
+            }
+            .one{
+                background-color: #e72f24;
+                grid-column-start: 1;
+                grid-column-end:2 ;
+                grid-row-start: 1;
+                grid-row-end:2 ;
+                border-right:9px solid #232629;
+                border-bottom: 9px solid #232629;
+            }
+            .two{
+                grid-column-start:2;
+                grid-column-end: 5;
+                grid-row-start:1;
+                grid-row-end:2;
+                /* grid-area:1/2/2/5; shortcut*/
+                border-bottom: 9px solid black;
+            }
+            .three{
+                grid-row-start:2;
+                grid-row-end:4;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                border-bottom:  9px solid black;
+                border-right:9px solid black;
+                /* grid-area:2/1/4/2; shortcut*/
+            }
+            .four{
+                grid-row-start:2;
+                grid-row-end:4;
+                grid-column-start: 2;
+                grid-column-end: 4;
+                border-bottom: 9px solid black;
+                border-right: 9px solid black;
+                /* grid-area:2/2/4/4; shortcut*/
+            }
+            .five{
+                 grid-row-start:4;
+                grid-row-end:5;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                border-right:9px solid black
+                /* grid-area:4/5/1/2; shortcut*/
+                
+            }
+            .six{
+                 grid-row-start:4;
+                grid-row-end:5;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                /* grid-area:4/2/5/3; shortcut*/
+                background-color: #f9d01e;
+            }
+            .seven{
+                 grid-row-start:4;
+                grid-row-end:5;
+                grid-column-start: 3;
+                grid-column-end: 4;
+                /* grid-area:4/2/5/3; shortcut*/
+                background-color: #232629;
+            }
+            .nine{
+                 grid-row-start:2;
+                grid-row-end:3;
+                grid-column-start: 4;
+                grid-column-end: 5;
+                /* grid-area:2/4/3/5; shortcut*/
+                background-color:  #004592;
+                border-bottom: 10px solid #232629;;
+            }
+
